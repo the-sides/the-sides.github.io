@@ -33,3 +33,10 @@ h1{
     width: 400px;
     height: 250px;
 }
+
+.gameclips {
+    display: flex;
+}
+.gameclips figure {
+    flex: 1;
+}
