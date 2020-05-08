@@ -36,6 +36,7 @@ h1{
 
 .gameclips {
     display: flex;
+    flex-direction: column;
 }
 .gameclips figure {
     flex: 1;
