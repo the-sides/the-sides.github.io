@@ -1,0 +1,40 @@
+body {
+  background-color: #141516;
+  color: #5af78e; }
+
+a {
+  color: lime; }
+
+h2, h3 {
+  text-align: center; }
+
+.header {
+  display: grid;
+  grid-template-columns: auto auto;
+  max-width: 500px;
+  margin: 50px auto; }
+
+h1 {
+  text-align: center; }
+
+.me {
+  height: 200px;
+  width: 200px; }
+
+.project-display {
+  display: grid;
+  grid-template-columns: auto auto;
+  max-width: 1000px;
+  margin: 32px auto;
+  text-align: center; }
+
+.preview {
+  width: 400px;
+  height: 250px; }
+
+.gameclips {
+  display: flex;
+  flex-direction: column; }
+
+.gameclips figure {
+  flex: 1; }
