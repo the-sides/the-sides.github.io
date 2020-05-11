@@ -7,6 +7,7 @@ const del = require('del')
 const named = require('vinyl-named')
 const sourcemaps = require('gulp-sourcemaps');
 const sass = require('gulp-sass');
+const replace = require('gulp-replace')
 
 function clean(){
     return del([
@@ -60,6 +61,9 @@ function vendors(){
 
 function templates(){
     return src(['./src/views/index.html'])
+            .pipe(replace('styles/', 'dist/styles/'))
+            .pipe(replace('images/', 'dist/images/'))
+            .pipe(replace('scripts/', 'dist/scripts/'))
             .pipe(dest('.'))
 }
 
