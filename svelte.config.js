@@ -19,7 +19,6 @@ const config = {
 	],
 
 	kit: {
-		target: '#svelte',
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
@@ -27,8 +26,8 @@ const config = {
 		}),
 		// ssr: false,
 		paths: {
-			// assets: '/memento-sveltekit-and-github-pages',
-			base: '/memento-sveltekit-and-github-pages'
+			// assets: '/assets',
+			base: '/'
 		}
 		// prerender: {
 		// 	crawl: true,

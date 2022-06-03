@@ -1,5 +1,5 @@
 {
-	"name": "memento-sveltekit-and-github-pages",
+	"name": "the-sides.github.io",
 	"version": "0.0.8",
 	"scripts": {
 		"dev": "svelte-kit dev",
