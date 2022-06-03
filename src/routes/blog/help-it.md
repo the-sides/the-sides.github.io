@@ -1,6 +1,13 @@
-# MEMENTO SvelteKit & GitHub Pages
+---
+title: 'MEMENTO SvelteKit & GitHub Pages'
+tags:
+  - help
+  - test
+---
 
-Template to create a blog with SvelteKit **WORK IN PROGRESS**
+# {title}
+
+Template to create a blog with SvelteKit
 
 ### Get Started
 
