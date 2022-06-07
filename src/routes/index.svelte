@@ -42,22 +42,22 @@
 <h3 class="mb-0 -ml-0.5">My Work</h3>
 <p class="text-sm mt-1 pt-0">I've been fortunate enough to work with fantastic designers at Pyxl to build out their visions.</p>
 <p>
-	<a href="brownlee.co"> Brownlee </a>
+	<a href="https://brownlee.co" target="_blank" rel="nofollow"> Brownlee </a>
 	 - A Next.js Shopify Plus Headless Ecommerce
 </p>
 <p>
 
-	<a href="trimech.com"> Trimech </a>
+	<a href="https://trimech.com" target="_blank" rel="nofollow"> Trimech </a>
  - WordPress Woocommerce site with Vue.js search and archive functionalities
 </p>
 <p>
 
-	<a href="mlilyusa.com"> MLILY </a>
+	<a href="https://mlilyusa.com" target="_blank" rel="nofollow"> MLILY </a>
  - WordPress Woocommerce site built with TailwindCSS, Twig and Vue.js archives
 </p>
 <p>
 
-	<a href="talkiatry.com"> Talkiatry </a>
+	<a href="https://talkiatry.com" target="_blank" rel="nofollow"> Talkiatry </a>
  - WordPress site built with TailwindCSS, Twig and Vue.js archives
 </p>
 	<h3> Side Projects </h3>
