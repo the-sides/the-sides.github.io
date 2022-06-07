@@ -1,0 +1,25 @@
+import{S as ke,i as ye,s as be,e as o,k as f,t as n,c as i,m as p,a as h,h as c,d as l,b as a,g as _,J as e,K as ne}from"../chunks/vendor-f0095a1c.js";function Se(_e){let u,A,g,L,k,J,r,y,N,C,T,H,V,W,B,D,b,K,M,S,R,F,P,m,G,Y,q,E,d,z,O,Q,I,v,U,X,Z,j,w,$,ee,te,x,re,se;return{c(){u=o("link"),A=f(),g=o("link"),L=f(),k=o("link"),J=f(),r=o("article"),y=o("h1"),N=n("Jacob Sides"),C=f(),T=o("h2"),H=n("Full-stack Developer"),V=f(),W=o("p"),B=n(`I'm a passionate JavaScript developer, diving deep into front-end and\r
+        headless technologies, hoping to build interactive 3D sites in the\r
+        future. If I'm not trying out a new JS framework, you'll find me gaming,\r
+        jamming to music or attempting to pick up a new skill, whether it's the\r
+        Bass or German.`),D=f(),b=o("h3"),K=n("My Work"),M=f(),S=o("p"),R=n(`I've been fortunate enough to work with fantastic designers at Pyxl to\r
+        build out their visions.`),F=f(),P=o("p"),m=o("a"),G=n("Brownlee"),Y=n(`\r
+        - A Next.js Shopify Plus Headless Ecommerce`),q=f(),E=o("p"),d=o("a"),z=n("Trimech"),O=n(`\r
+        - WordPress Woocommerce site with Vue.js search and archive functionalities`),Q=f(),I=o("p"),v=o("a"),U=n("MLILY"),X=n(`\r
+        - WordPress Woocommerce site built with TailwindCSS, Twig and Vue.js archives`),Z=f(),j=o("p"),w=o("a"),$=n("Talkiatry"),ee=n(`\r
+        - WordPress site built with TailwindCSS, Twig and Vue.js archives`),te=f(),x=o("h3"),re=n("Side Projects"),se=n(`\r
+    All my repos are primarily side projects that focus more concepts, teaching and\r
+    learning tech-stacks rather than front-end development. Nonetheless, see how\r
+    obsessed I am with the Spotify API.`),this.h()},l(s){u=i(s,"LINK",{rel:!0,href:!0}),A=p(s),g=i(s,"LINK",{rel:!0,href:!0,crossorigin:!0}),L=p(s),k=i(s,"LINK",{href:!0,rel:!0}),J=p(s),r=i(s,"ARTICLE",{class:!0});var t=h(r);y=i(t,"H1",{class:!0});var he=h(y);N=c(he,"Jacob Sides"),he.forEach(l),C=p(t),T=i(t,"H2",{});var ce=h(T);H=c(ce,"Full-stack Developer"),ce.forEach(l),V=p(t),W=i(t,"P",{});var fe=h(W);B=c(fe,`I'm a passionate JavaScript developer, diving deep into front-end and\r
+        headless technologies, hoping to build interactive 3D sites in the\r
+        future. If I'm not trying out a new JS framework, you'll find me gaming,\r
+        jamming to music or attempting to pick up a new skill, whether it's the\r
+        Bass or German.`),fe.forEach(l),D=p(t),b=i(t,"H3",{class:!0});var pe=h(b);K=c(pe,"My Work"),pe.forEach(l),M=p(t),S=i(t,"P",{class:!0});var ue=h(S);R=c(ue,`I've been fortunate enough to work with fantastic designers at Pyxl to\r
+        build out their visions.`),ue.forEach(l),F=p(t),P=i(t,"P",{});var ae=h(P);m=i(ae,"A",{href:!0,target:!0,rel:!0});var me=h(m);G=c(me,"Brownlee"),me.forEach(l),Y=c(ae,`\r
+        - A Next.js Shopify Plus Headless Ecommerce`),ae.forEach(l),q=p(t),E=i(t,"P",{});var le=h(E);d=i(le,"A",{href:!0,target:!0,rel:!0});var de=h(d);z=c(de,"Trimech"),de.forEach(l),O=c(le,`\r
+        - WordPress Woocommerce site with Vue.js search and archive functionalities`),le.forEach(l),Q=p(t),I=i(t,"P",{});var oe=h(I);v=i(oe,"A",{href:!0,target:!0,rel:!0});var ve=h(v);U=c(ve,"MLILY"),ve.forEach(l),X=c(oe,`\r
+        - WordPress Woocommerce site built with TailwindCSS, Twig and Vue.js archives`),oe.forEach(l),Z=p(t),j=i(t,"P",{});var ie=h(j);w=i(ie,"A",{href:!0,target:!0,rel:!0});var we=h(w);$=c(we,"Talkiatry"),we.forEach(l),ee=c(ie,`\r
+        - WordPress site built with TailwindCSS, Twig and Vue.js archives`),ie.forEach(l),te=p(t),x=i(t,"H3",{});var ge=h(x);re=c(ge,"Side Projects"),ge.forEach(l),se=c(t,`\r
+    All my repos are primarily side projects that focus more concepts, teaching and\r
+    learning tech-stacks rather than front-end development. Nonetheless, see how\r
+    obsessed I am with the Spotify API.`),t.forEach(l),this.h()},h(){a(u,"rel","preconnect"),a(u,"href","https://fonts.googleapis.com"),a(g,"rel","preconnect"),a(g,"href","https://fonts.gstatic.com"),a(g,"crossorigin",""),a(k,"href","https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"),a(k,"rel","stylesheet"),a(y,"class","svelte-4586fl"),a(b,"class","mb-0 -ml-0.5"),a(S,"class","text-sm mt-1 pt-0"),a(m,"href","https://brownlee.co"),a(m,"target","_blank"),a(m,"rel","nofollow"),a(d,"href","https://trimech.com"),a(d,"target","_blank"),a(d,"rel","nofollow"),a(v,"href","https://mlilyusa.com"),a(v,"target","_blank"),a(v,"rel","nofollow"),a(w,"href","https://talkiatry.com"),a(w,"target","_blank"),a(w,"rel","nofollow"),a(r,"class","svelte-4586fl")},m(s,t){_(s,u,t),_(s,A,t),_(s,g,t),_(s,L,t),_(s,k,t),_(s,J,t),_(s,r,t),e(r,y),e(y,N),e(r,C),e(r,T),e(T,H),e(r,V),e(r,W),e(W,B),e(r,D),e(r,b),e(b,K),e(r,M),e(r,S),e(S,R),e(r,F),e(r,P),e(P,m),e(m,G),e(P,Y),e(r,q),e(r,E),e(E,d),e(d,z),e(E,O),e(r,Q),e(r,I),e(I,v),e(v,U),e(I,X),e(r,Z),e(r,j),e(j,w),e(w,$),e(j,ee),e(r,te),e(r,x),e(x,re),e(r,se)},p:ne,i:ne,o:ne,d(s){s&&l(u),s&&l(A),s&&l(g),s&&l(L),s&&l(k),s&&l(J),s&&l(r)}}}class Ee extends ke{constructor(u){super();ye(this,u,null,Se,be,{})}}export{Ee as default};
