@@ -1,46 +1,20 @@
-import {
-	mdsvex
-} from 'mdsvex';
-import mdsvexConfig from './mdsvex.config.js';
-import preprocess from 'svelte-preprocess';
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-static'; // was adapter-auto
+
+const dev = process.env.NODE_ENV === 'development';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	extensions: ['.svelte', ...mdsvexConfig.extensions],
-
-	// Consult https://github.com/sveltejs/svelte-preprocess
-	// for more information about preprocessors
-	preprocess: [
-		preprocess({
-			postcss: true
-		}),
-		mdsvex(mdsvexConfig)
-	],
-
 	kit: {
 		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
-			fallback: null
+			pages: 'docs',
+			assets: 'docs'
 		}),
-		// ssr: false,
-
-		// prerender: {
-		// 	crawl: true,
-		// 	enabled: true,
-		// 	force: false,
-		// 	pages: [
-		// 		"*"
-		// 	],
-		// }
+		paths: {
+			base: dev ? '' : '/the-sides.github.io',
+		},
+		// hydrate the <div id="svelte"> element in src/app.html
+		target: '#svelte'
 	}
 };
-
-if (process.NODE_ENV === 'production') {
-	config.kit.paths = {
-		base: '/'
-	}
-}
 
 export default config;

@@ -1,23 +1,5 @@
-# MEMENTO SvelteKit & GitHub Pages
+# SvelteKit Github Pages Template
 
-Template to create a blog with SvelteKit **WORK IN PROGRESS**
+A template for easily deploying a SvelteKit site on Github Pages. See the guide here for more info: [How to Deploy SvelteKit Apps on Github Pages](https://sveltesaas.com/articles/sveltekit-github-pages-guide)
 
-### Get Started
-
-To create a new project based on this template using degit:
-
-```bash
-npx degit el3um4s/memento-sveltekit-and-github-pages
-```
-
-Then install the dependencies with
-
-```bash
-npm install
-```
-
-### Command
-
-- `npm run dev`
-- `npm run build`
-- `npm run deploy`
+Once you've cloned this repository, go to the Github repository Settings page and turn on Github Pages for the `/docs` folder in the `main` branch.
