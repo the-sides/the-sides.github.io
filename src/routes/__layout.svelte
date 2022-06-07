@@ -16,7 +16,7 @@
 	export let key: string;
 </script>
 
-<Nav />
+<!-- <Nav /> -->
 <main>
 	<PageTransition refresh={key}>
 		<slot />

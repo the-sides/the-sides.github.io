@@ -34,25 +34,36 @@
 	}
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<div>
-	<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-	<p><a sveltekit:prefetch href={`${base}/about/`}>ABOUT</a></p>
-	<p>Read my <a sveltekit:prefetch href={`${base}/blog/`}>blog</a></p>
-	<p>Version: 0.0.8</p>
-</div>
+<h1>Jacob Sides</h1>
+<h2>Full-stack Developer</h2>
+<article>
+		<p>I'm a passionate JavaScript developer, diving deep into front-end and headless technologies, hoping to build interactive 3D sites in the future. If I'm not trying out a new JS framework, you'll find me gaming, jamming to music or attempting to pick up a new skill, whether it's the Bass or German.</p>
 
-<h1>News</h1>
+<h3 class="mb-0 -ml-0.5">My Work</h3>
+<p class="text-sm mt-1 pt-0">I've been fortunate enough to work with fantastic designers at Pyxl to build out their visions.</p>
+<p>
+	<a href="brownlee.co"> Brownlee </a>
+	 - A Next.js Shopify Plus Headless Ecommerce
+</p>
+<p>
 
-<ul>
-	{#each posts as { slugPage, metadata: { title, slug } }}
-		<li>
-			<a href={`${base}/${linkSlug(slug, slugPage)}`} sveltekit:prefetch class="link-no-underline"
-				>{title}</a
-			>
-		</li>
-	{/each}
-</ul>
+	<a href="trimech.com"> Trimech </a>
+ - WordPress Woocommerce site with Vue.js search and archive functionalities
+</p>
+<p>
+
+	<a href="mlilyusa.com"> MLILY </a>
+ - WordPress Woocommerce site built with TailwindCSS, Twig and Vue.js archives
+</p>
+<p>
+
+	<a href="talkiatry.com"> Talkiatry </a>
+ - WordPress site built with TailwindCSS, Twig and Vue.js archives
+</p>
+	<h3> Side Projects </h3>
+All my repos are primarily side projects that focus more concepts, teaching and learning tech-stacks rather than front-end development. Nonetheless, see how obsessed I am with the Spotify API.
+</article>
+
 
 <style>
 	div {

@@ -25,10 +25,7 @@ const config = {
 			fallback: null
 		}),
 		// ssr: false,
-		paths: {
-			// assets: '/assets',
-			base: '/'
-		}
+
 		// prerender: {
 		// 	crawl: true,
 		// 	enabled: true,
@@ -39,5 +36,11 @@ const config = {
 		// }
 	}
 };
+
+if (process.NODE_ENV === 'production') {
+	config.kit.paths = {
+		base: '/'
+	}
+}
 
 export default config;
